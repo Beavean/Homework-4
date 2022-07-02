@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08244E4228707EE600F9920A /* ServerResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08244E4128707EE600F9920A /* ServerResponce.swift */; };
 		0888A8F1286F4BCB00D04CF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888A8F0286F4BCB00D04CF8 /* AppDelegate.swift */; };
 		0888A8F3286F4BCB00D04CF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888A8F2286F4BCB00D04CF8 /* SceneDelegate.swift */; };
 		0888A8F5286F4BCB00D04CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888A8F4286F4BCB00D04CF8 /* ViewController.swift */; };
 		0888A8F8286F4BCB00D04CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0888A8F6286F4BCB00D04CF8 /* Main.storyboard */; };
 		0888A8FA286F4BCC00D04CF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0888A8F9286F4BCC00D04CF8 /* Assets.xcassets */; };
 		0888A8FD286F4BCC00D04CF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0888A8FB286F4BCC00D04CF8 /* LaunchScreen.storyboard */; };
+		0888A906286F4D1C00D04CF8 /* fakeInstaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0888A904286F4D1C00D04CF8 /* fakeInstaCell.xib */; };
+		0888A907286F4D1C00D04CF8 /* fakeInstaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0888A905286F4D1C00D04CF8 /* fakeInstaCell.swift */; };
+		0888A915287071EB00D04CF8 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0888A914287071EB00D04CF8 /* Podfile */; };
+		BFDCCA432CFE70BE251C71B3 /* libPods-Homework 4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C4E4F3B2DE7E412BFC237D2 /* libPods-Homework 4.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08244E4128707EE600F9920A /* ServerResponce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ServerResponce.swift; path = "Homework 4/ParsingModels/ServerResponce.swift"; sourceTree = SOURCE_ROOT; };
 		0888A8ED286F4BCB00D04CF8 /* Homework 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Homework 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0888A8F0286F4BCB00D04CF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0888A8F2286F4BCB00D04CF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,12 @@
 		0888A8F9286F4BCC00D04CF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0888A8FC286F4BCC00D04CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0888A8FE286F4BCC00D04CF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0888A904286F4D1C00D04CF8 /* fakeInstaCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = fakeInstaCell.xib; sourceTree = "<group>"; };
+		0888A905286F4D1C00D04CF8 /* fakeInstaCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fakeInstaCell.swift; sourceTree = "<group>"; };
+		0888A914287071EB00D04CF8 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		527E7B57783A481CA04CB7D4 /* Pods-Homework 4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework 4.debug.xcconfig"; path = "Target Support Files/Pods-Homework 4/Pods-Homework 4.debug.xcconfig"; sourceTree = "<group>"; };
+		8C4E4F3B2DE7E412BFC237D2 /* libPods-Homework 4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Homework 4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B901DF538356904773CF9878 /* Pods-Homework 4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework 4.release.xcconfig"; path = "Target Support Files/Pods-Homework 4/Pods-Homework 4.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDCCA432CFE70BE251C71B3 /* libPods-Homework 4.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08244E432870902F00F9920A /* ParsingModels */ = {
+			isa = PBXGroup;
+			children = (
+				08244E4128707EE600F9920A /* ServerResponce.swift */,
+			);
+			path = ParsingModels;
+			sourceTree = "<group>";
+		};
 		0888A8E4286F4BCB00D04CF8 = {
 			isa = PBXGroup;
 			children = (
 				0888A8EF286F4BCB00D04CF8 /* Homework 4 */,
 				0888A8EE286F4BCB00D04CF8 /* Products */,
+				F26154B103A6109E8D028515 /* Pods */,
+				FA02B9937D631BAB11038F84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +79,7 @@
 		0888A8EF286F4BCB00D04CF8 /* Homework 4 */ = {
 			isa = PBXGroup;
 			children = (
+				0888A914287071EB00D04CF8 /* Podfile */,
 				0888A8F0286F4BCB00D04CF8 /* AppDelegate.swift */,
 				0888A8F2286F4BCB00D04CF8 /* SceneDelegate.swift */,
 				0888A8F4286F4BCB00D04CF8 /* ViewController.swift */,
@@ -63,8 +87,28 @@
 				0888A8F9286F4BCC00D04CF8 /* Assets.xcassets */,
 				0888A8FB286F4BCC00D04CF8 /* LaunchScreen.storyboard */,
 				0888A8FE286F4BCC00D04CF8 /* Info.plist */,
+				0888A905286F4D1C00D04CF8 /* fakeInstaCell.swift */,
+				0888A904286F4D1C00D04CF8 /* fakeInstaCell.xib */,
+				08244E432870902F00F9920A /* ParsingModels */,
 			);
 			path = "Homework 4";
+			sourceTree = "<group>";
+		};
+		F26154B103A6109E8D028515 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				527E7B57783A481CA04CB7D4 /* Pods-Homework 4.debug.xcconfig */,
+				B901DF538356904773CF9878 /* Pods-Homework 4.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FA02B9937D631BAB11038F84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C4E4F3B2DE7E412BFC237D2 /* libPods-Homework 4.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +118,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0888A901286F4BCC00D04CF8 /* Build configuration list for PBXNativeTarget "Homework 4" */;
 			buildPhases = (
+				2B093A186235BFEE456AF22F /* [CP] Check Pods Manifest.lock */,
 				0888A8E9286F4BCB00D04CF8 /* Sources */,
 				0888A8EA286F4BCB00D04CF8 /* Frameworks */,
 				0888A8EB286F4BCB00D04CF8 /* Resources */,
@@ -125,21 +170,50 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0888A915287071EB00D04CF8 /* Podfile in Resources */,
 				0888A8FD286F4BCC00D04CF8 /* LaunchScreen.storyboard in Resources */,
 				0888A8FA286F4BCC00D04CF8 /* Assets.xcassets in Resources */,
+				0888A906286F4D1C00D04CF8 /* fakeInstaCell.xib in Resources */,
 				0888A8F8286F4BCB00D04CF8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2B093A186235BFEE456AF22F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Homework 4-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0888A8E9286F4BCB00D04CF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08244E4228707EE600F9920A /* ServerResponce.swift in Sources */,
 				0888A8F5286F4BCB00D04CF8 /* ViewController.swift in Sources */,
 				0888A8F1286F4BCB00D04CF8 /* AppDelegate.swift in Sources */,
+				0888A907286F4D1C00D04CF8 /* fakeInstaCell.swift in Sources */,
 				0888A8F3286F4BCB00D04CF8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +356,7 @@
 		};
 		0888A902286F4BCC00D04CF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 527E7B57783A481CA04CB7D4 /* Pods-Homework 4.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +385,7 @@
 		};
 		0888A903286F4BCC00D04CF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B901DF538356904773CF9878 /* Pods-Homework 4.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
